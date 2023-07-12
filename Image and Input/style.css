@@ -1,0 +1,29 @@
+
+
+#image{
+    width: 300px;
+    box-shadow:  -1px -1px 5px #00000040,
+                 1px 1px 5px #ffffff50;
+}
+
+#search-bar{
+    display: block;
+    border-radius: 25px;
+    border-width: 0;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    font-size: 11px;
+    width: 200px;
+    height: 25px;
+    box-shadow:  -1px -1px 5px #00000040,
+                 1px 1px 5px #ffffff50;
+}
+
+.video-title{
+    width: 200px;
+}
+
+.video-author, .video-views{
+    
+}
+

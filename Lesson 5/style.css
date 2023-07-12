@@ -1,0 +1,20 @@
+
+.image{
+    width: 300px;
+}
+
+.search-bar{
+    border-style: none;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 200px;
+    height: 20px;
+    font-size: 9px;
+    box-shadow: -1px -1px 3px #ffffff90,
+                1px 1px 2px #00000090;
+}
+.search-bar:focus{
+    outline: none;
+}
