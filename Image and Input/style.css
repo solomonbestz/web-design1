@@ -1,29 +1,92 @@
-
-
-#image{
-    width: 300px;
-    box-shadow:  -1px -1px 5px #00000040,
-                 1px 1px 5px #ffffff50;
+*{
+    margin: 0;
+    padding: 0;
 }
 
+body{
+    background: #EFE1D1;
+}
+
+/* STYLING THE SEARCHBAR */
+.search-container{
+    margin-top: 20px;
+    text-align: center;
+}
 #search-bar{
-    display: block;
     border-radius: 25px;
     border-width: 0;
     padding-left: 15px;
     margin-bottom: 20px;
-    font-size: 11px;
-    width: 200px;
-    height: 25px;
-    box-shadow:  -1px -1px 5px #00000040,
-                 1px 1px 5px #ffffff50;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 270px;
+    height: 50px;
+    box-shadow: -2px -1px 2px 2px #fcfafae5,
+                0.5px 0.3px 2px 2px #000000;
+}
+#search-bar:focus{
+    outline: none;
+    height: 50px;
+    box-shadow: inset -2px -1px 2px 5px #fcfafae5,
+                inset 2px 2px 2px 5px #000000;
+}
+#search-bar:focus::placeholder{
+    color: transparent;
+}
+
+
+/* END OF STYLING THE SEARCHBAR */
+
+
+/* STYLING THE CARD */
+.card{
+    display: inline-block;
+    background: #EFE1D1;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: -1px -2px 2px #ffffff,
+                1px 1px 2px #000000;
+}
+.image-container{
+    width: 250px;
+    text-align: center;
+    border-radius: 19px 19px 0 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    box-shadow: -1px -2px 2px #ffffff,
+                1px 1px 2px #000000;
+    /* box-shadow: -2px -4px 2px #3F2E3E,
+                1px 2px 2px 2px #000000; */
+}
+.image{
+    width: 249px;
+    border-radius: 19px 19px 0 0;
+}
+
+.card-details{
+    background: #A78295;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    border-radius: 6px;
+    height: 100px;
+    width: 290px;
+    box-shadow: inset -2px -2px 5px 3px rgba(190, 190, 190, 0.4),
+                inset 2px 1px 2px 3px #000000;
 }
 
 .video-title{
-    width: 200px;
+    padding-top: 20px;
+    margin-left: 10px;
 }
 
 .video-author, .video-views{
-    
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
+
+/* END OF STYLING THE CARD */
 
