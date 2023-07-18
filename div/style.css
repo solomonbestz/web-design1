@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    background-image: linear-gradient(to right, #ffd89b, #19547b );
+    width: 100vw;
+    height: 100vh;
+}
+.nav-bar{
+    width: 100vw;
+    background: orange;
+}
+
+.nav-bar ul{
+    display: flex;
+    margin-left: 500px;
+    list-style-type: none;
+    padding-left: 50px;
+}
+.nav-bar ul li{
+    margin-left: 40px;
+    padding: 20px 0 20px 0;
+}
+
+.nav-bar ul li a{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 20px 0 20px 0;
+}
