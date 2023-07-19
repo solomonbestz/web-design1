@@ -4,12 +4,17 @@
     padding: 0;
 }
 
+p{
+    font-family: Roboto, Arial;
+}
+
 
 .container{
     background-image: linear-gradient(to right, #ffd89b, #19547b );
     width: 100vw;
     height: 100vh;
 }
+/* STYLING THE NAV BAR */
 .nav-bar{
     width: 100vw;
     background: orange;
@@ -32,4 +37,59 @@
     text-decoration: none;
     font-weight: bolder;
     padding: 20px 0 20px 0;
+}
+/* END OF NAV BAR */
+
+/* STYLING THE CARDS */
+
+.thumbnail-container{
+    margin-bottom: 12px;
+}
+.thumbnail{
+    width: 350px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border-radius 0.1s;
+}
+.thumbnail:hover{
+    border-radius: 0;
+}
+.card{
+    display: inline-block;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.profile-container{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+.p-image{
+    width:40px;
+    border-radius: 25px;
+}
+
+.video-info{
+    display: inline-block;
+    width: 300px;
+}
+
+.video-title{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+
+.video-author{
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.video-stats{
+    font-size: 14px;
+    color: gray;
 }
