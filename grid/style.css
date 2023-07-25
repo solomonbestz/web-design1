@@ -1,0 +1,37 @@
+
+:root{
+    --color1: green;
+    --color2: blue;
+    --color3: yellow;
+}
+.container{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 2fr;
+}
+
+.main{
+    display: grid;
+    border: 2px solid red;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+}
+.main2{
+    display: grid;
+    border: 2px solid purple;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.div1{
+    background: var(--color1);
+}
+.div2{
+    background: var(--color2);
+}
+
+.div3{
+    background: var(--color3);
+}
+.div4{
+    background: var(--color1);
+}
