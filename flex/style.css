@@ -1,0 +1,30 @@
+
+
+.container{
+    height: 50px;
+}
+
+.flex-grid{
+    display: flex;
+    border: 2px solid red;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.div1{
+    background: lightblue;
+    width: 200px;
+}
+
+.div2{
+    background: orange;
+    flex: 1;
+    max-width: 500px;
+}
+.div3{
+    background: green;
+    width: 200px;
+
+}

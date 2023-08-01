@@ -1,7 +1,8 @@
 
-*{
+body{
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(to top, #ffd89b, #19547b );
 }
 
 p{
@@ -10,9 +11,9 @@ p{
 
 
 .container{
-    background-image: linear-gradient(to right, #ffd89b, #19547b );
     width: 100vw;
     height: 100vh;
+    border: 2px;
 }
 /* STYLING THE NAV BAR */
 .nav-bar{
@@ -45,20 +46,23 @@ p{
 .thumbnail-container{
     margin-bottom: 12px;
 }
+
 .thumbnail{
     width: 350px;
     border-radius: 8px;
     cursor: pointer;
     transition: border-radius 0.1s;
 }
+
 .thumbnail:hover{
     border-radius: 0;
 }
+
 .card{
+    width: 360px;
     display: inline-block;
-    width: 400px;
-    margin-top: 20px;
-    margin-left: 20px;
+    box-shadow: 2px 2px 3px #000000,
+                -2px -2px 3px  #ffffff70;
 }
 
 .profile-container{
@@ -66,9 +70,13 @@ p{
     width: 50px;
     vertical-align: top;
 }
+
 .p-image{
     width:40px;
+    margin-left: 5px;
     border-radius: 25px;
+    box-shadow: 3px 2px 2px #000000,
+                -3px -3px 5px  #ffffff70;
 }
 
 .video-info{
